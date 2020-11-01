@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
     
     var data = [String]()
-    
+    //
     let apiService = APIServic()
     
      private let tableview: UITableView = {
